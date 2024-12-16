@@ -1,7 +1,7 @@
 # 1- Kendisine gönderilen bir kelimeyi belirtilen kez ekranda gösteren fonksiyonu yazınız. 
 def soru1(a):
     i=0
-    b=input("Kelimeyi giriniz:")
+    b=input(str(a)+" Kere yazacağınız kelimeyi giriniz:")
     while(i<a):
         print(b)
         i+=1
